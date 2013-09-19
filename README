@@ -1,7 +1,9 @@
-BeagleBone prototyping board.
+BeagleBone cape to interface to a RAMPS board for 3D printing
 
-Directory 'kicad' contains design files.
-Directory 'gerber' contains gerber files prepared for sending to the board house.
-Directory 'lib' contains schematic symbol and PCB module for BeagleBone, both ready for use on your own boards.
+Derived from the FlyingBone prototype cape and KiCad library by 
+Jacek Radzikowski:
+https://github.com/piranha32/FlyingBone
 
+and the Arduino Shield Modules for KiCad by Nicholas C Lewis:
+http://www.thingiverse.com/thing:9630
 

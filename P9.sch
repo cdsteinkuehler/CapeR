@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 23 May 2012 07:07:57 PM EDT
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,17 +30,17 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:FlyingBone-cache
-LIBS:FlyingBone-cache
-EELAYER 25  0
+LIBS:beaglebone
+EELAYER 27 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
-Title "FlyingBone - Proto board for BeagleBone"
-Date "16 nov 2011"
-Rev "0.3"
-Comp "Jacek Radzikowski <jacek.radzikowski@gmail.com>"
-Comment1 "https://github.com/piranha32/FlyingBone"
+Title "CapeR - RAMPS Interface for BeagleBone"
+Date "19 sep 2013"
+Rev "1.0"
+Comp "Charles Steinkuehler <charles@steinkuehler.net>"
+Comment1 "https://github.com/cdsteinkuehler/CapeR"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -323,6 +323,8 @@ U 1 1 4EB9CD38
 P 3650 3900
 F 0 "#PWR01" H 3650 3900 30  0001 C CNN
 F 1 "GND" H 3650 3830 30  0001 C CNN
+F 2 "" H 3650 3900 60  0001 C CNN
+F 3 "" H 3650 3900 60  0001 C CNN
 	1    3650 3900
 	1    0    0    -1  
 $EndComp
@@ -332,6 +334,8 @@ U 1 1 4EB9CBD3
 P 1700 3300
 F 0 "#PWR02" H 1700 3300 30  0001 C CNN
 F 1 "GND" H 1700 3230 30  0001 C CNN
+F 2 "" H 1700 3300 60  0001 C CNN
+F 3 "" H 1700 3300 60  0001 C CNN
 	1    1700 3300
 	1    0    0    -1  
 $EndComp
@@ -341,6 +345,8 @@ U 1 1 4EB9CBCB
 P 1700 2950
 F 0 "C1" H 1750 3050 50  0000 L CNN
 F 1 "u1" H 1750 2850 50  0000 L CNN
+F 2 "" H 1700 2950 60  0001 C CNN
+F 3 "" H 1700 2950 60  0001 C CNN
 	1    1700 2950
 	1    0    0    -1  
 $EndComp
@@ -350,6 +356,8 @@ U 1 1 4EB9CB8D
 P 2150 4800
 F 0 "#PWR03" H 2150 4800 30  0001 C CNN
 F 1 "GND" H 2150 4730 30  0001 C CNN
+F 2 "" H 2150 4800 60  0001 C CNN
+F 3 "" H 2150 4800 60  0001 C CNN
 	1    2150 4800
 	1    0    0    -1  
 $EndComp
@@ -359,6 +367,8 @@ U 1 1 4EB9CB6C
 P 2150 4200
 F 0 "J1" H 2150 4350 50  0000 C CNN
 F 1 "addr" H 2160 4070 40  0000 C CNN
+F 2 "" H 2150 4200 60  0001 C CNN
+F 3 "" H 2150 4200 60  0001 C CNN
 	1    2150 4200
 	0    1    1    0   
 $EndComp
@@ -368,6 +378,8 @@ U 1 1 4EB9CB40
 P 2000 2900
 F 0 "R5" V 2080 2900 50  0000 C CNN
 F 1 "4k75" V 2000 2900 50  0000 C CNN
+F 2 "" H 2000 2900 60  0001 C CNN
+F 3 "" H 2000 2900 60  0001 C CNN
 	1    2000 2900
 	1    0    0    -1  
 $EndComp
@@ -377,6 +389,8 @@ U 1 1 4EB9CB39
 P 2200 2900
 F 0 "R4" V 2280 2900 50  0000 C CNN
 F 1 "4k75" V 2200 2900 50  0000 C CNN
+F 2 "" H 2200 2900 60  0001 C CNN
+F 3 "" H 2200 2900 60  0001 C CNN
 	1    2200 2900
 	1    0    0    -1  
 $EndComp
@@ -386,6 +400,8 @@ U 1 1 4EB9CB33
 P 2400 2900
 F 0 "R3" V 2480 2900 50  0000 C CNN
 F 1 "4k75" V 2400 2900 50  0000 C CNN
+F 2 "" H 2400 2900 60  0001 C CNN
+F 3 "" H 2400 2900 60  0001 C CNN
 	1    2400 2900
 	1    0    0    -1  
 $EndComp
@@ -395,6 +411,8 @@ U 1 1 4EB9CACE
 P 3950 2900
 F 0 "R2" V 4030 2900 50  0000 C CNN
 F 1 "1k5" V 3950 2900 50  0000 C CNN
+F 2 "" H 3950 2900 60  0001 C CNN
+F 3 "" H 3950 2900 60  0001 C CNN
 	1    3950 2900
 	1    0    0    -1  
 $EndComp
@@ -404,6 +422,8 @@ U 1 1 4EB9CAC9
 P 4150 2900
 F 0 "R1" V 4230 2900 50  0000 C CNN
 F 1 "1k5" V 4150 2900 50  0000 C CNN
+F 2 "" H 4150 2900 60  0001 C CNN
+F 3 "" H 4150 2900 60  0001 C CNN
 	1    4150 2900
 	1    0    0    -1  
 $EndComp
@@ -426,6 +446,8 @@ U 1 1 4EB9C954
 P 3000 3550
 F 0 "U2" H 2850 3900 60  0000 C CNN
 F 1 "CAT24C256" H 3050 3200 60  0000 C CNN
+F 2 "" H 3000 3550 60  0001 C CNN
+F 3 "" H 3000 3550 60  0001 C CNN
 	1    3000 3550
 	1    0    0    -1  
 $EndComp
@@ -435,6 +457,8 @@ U 1 1 4EB48FA3
 P 9600 2200
 F 0 "#PWR04" H 9600 2200 30  0001 C CNN
 F 1 "GND" H 9600 2130 30  0001 C CNN
+F 2 "" H 9600 2200 60  0001 C CNN
+F 3 "" H 9600 2200 60  0001 C CNN
 	1    9600 2200
 	1    0    0    -1  
 $EndComp
@@ -720,6 +744,8 @@ U 1 1 4EB1E384
 P 5800 3650
 F 0 "P4" H 5800 4850 60  0000 C CNN
 F 1 "CONN_23X2" V 5800 3550 50  0000 C CNN
+F 2 "" H 5800 3650 60  0001 C CNN
+F 3 "" H 5800 3650 60  0001 C CNN
 	1    5800 3650
 	1    0    0    -1  
 $EndComp
@@ -821,6 +847,8 @@ U 5 1 4EB1E2E1
 P 9850 4800
 F 0 "U1" H 9900 4750 60  0000 C CNN
 F 1 "BEAGLEBONE" H 10100 4650 60  0000 C CNN
+F 2 "" H 9850 4800 60  0001 C CNN
+F 3 "" H 9850 4800 60  0001 C CNN
 	5    9850 4800
 	1    0    0    -1  
 $EndComp
@@ -830,7 +858,11 @@ U 4 1 4EB1E2CD
 P 8000 4800
 F 0 "U1" H 8050 4750 60  0000 C CNN
 F 1 "BEAGLEBONE" H 8250 4650 60  0000 C CNN
+F 2 "" H 8000 4800 60  0001 C CNN
+F 3 "" H 8000 4800 60  0001 C CNN
 	4    8000 4800
 	1    0    0    -1  
 $EndComp
+Text Notes 7100 5900 0    60   ~ 0
+This design is derived from:\n\nFlyingBone - Proto board for BeagleBone\nJacek Radzikowski <jacek.radzikowski@gmail.com>\nhttps://github.com/piranha32/FlyingBone\n\nArduino Shield Modules for KiCad V3\nNicholas C Lewis\nhttp://www.thingiverse.com/thing:9630\n\nTHANKS!
 $EndSCHEMATC

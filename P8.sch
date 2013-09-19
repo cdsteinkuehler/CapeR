@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 23 May 2012 07:07:57 PM EDT
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,17 +30,17 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:FlyingBone-cache
-LIBS:FlyingBone-cache
-EELAYER 25  0
+LIBS:beaglebone
+EELAYER 27 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
-Title "FlyingBone - Proto board for BeagleBone"
-Date "16 nov 2011"
-Rev "0.3"
-Comp "Jacek Radzikowski <jacek.radzikowski@gmail.com>"
-Comment1 "https://github.com/piranha32/FlyingBone"
+Title "CapeR - RAMPS Interface for BeagleBone"
+Date "19 sep 2013"
+Rev "1.0"
+Comp "Charles Steinkuehler <charles@steinkuehler.net>"
+Comment1 "https://github.com/cdsteinkuehler/CapeR"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -621,6 +621,8 @@ U 1 1 4EB103AB
 P 3400 3100
 F 0 "P3" H 3400 4300 60  0000 C CNN
 F 1 "CONN_23X2" V 3400 3000 50  0000 C CNN
+F 2 "" H 3400 3100 60  0001 C CNN
+F 3 "" H 3400 3100 60  0001 C CNN
 	1    3400 3100
 	1    0    0    -1  
 $EndComp
@@ -630,6 +632,8 @@ U 3 1 4EB0FC0B
 P 8100 4250
 F 0 "U1" H 8150 4200 60  0000 C CNN
 F 1 "BEAGLEBONE" H 8350 4100 60  0000 C CNN
+F 2 "" H 8100 4250 60  0001 C CNN
+F 3 "" H 8100 4250 60  0001 C CNN
 	3    8100 4250
 	1    0    0    -1  
 $EndComp
@@ -639,7 +643,11 @@ U 2 1 4EB0FBFA
 P 6100 4300
 F 0 "U1" H 6150 4250 60  0000 C CNN
 F 1 "BEAGLEBONE" H 6350 4150 60  0000 C CNN
+F 2 "" H 6100 4300 60  0001 C CNN
+F 3 "" H 6100 4300 60  0001 C CNN
 	2    6100 4300
 	1    0    0    -1  
 $EndComp
+Text Notes 7100 5900 0    60   ~ 0
+This design is derived from:\n\nFlyingBone - Proto board for BeagleBone\nJacek Radzikowski <jacek.radzikowski@gmail.com>\nhttps://github.com/piranha32/FlyingBone\n\nArduino Shield Modules for KiCad V3\nNicholas C Lewis\nhttp://www.thingiverse.com/thing:9630\n\nTHANKS!
 $EndSCHEMATC
