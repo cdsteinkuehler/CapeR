@@ -19,7 +19,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=FlyingBone.net
+LastNetListRead=CapeR.net
 [pcbnew/libraries]
 LibName1=sockets
 LibName2=connect
@@ -33,7 +33,7 @@ LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
 LibName12=FlyingBone-footprints
-LibDir=../../lib
+LibDir=lib
 [cvpcb]
 version=1
 NetIExt=net
@@ -41,7 +41,7 @@ NetIExt=net
 EquName1=devcms
 [eeschema]
 version=1
-LibDir=../lib
+LibDir=lib
 NetFmt=1
 HPGLSpd=20
 HPGLDm=15
